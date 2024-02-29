@@ -1,4 +1,4 @@
-package org.example;
+package org.example.junit;
 
 import org.passay.CharacterData;
 import org.passay.CharacterRule;
@@ -9,7 +9,7 @@ import org.passay.PasswordGenerator;
 /**
  * 랜덤 패스워드 메소드
  */
-public class RandomPasswordGenerator implements org.example.PasswordGenerator {
+public class RandomPasswordGenerator implements org.example.junit.PasswordGenerator {
 
     public static final String ALLOWED_SPL_CHARACTERS = "!@#$%^&*()_";
     public static final String ERROR_CODE = "ERRONEOUS_SPECIAL_CHARS";
